@@ -1,8 +1,23 @@
 h1{
-    color: coral;
+    color:darkred;
     text-align: center;
 
 }
+
+h2{
+    color: crimson;
+}
+
+h3{
+    color: darksalmon;
+}
+
 body{
     background-color:rgb(180, 202, 221);
 }
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+}
+
