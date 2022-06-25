@@ -1,0 +1,43 @@
+:root {
+    --blanco: #fff;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--gris);
+    font-family: fantasy;
+}
+.titulo span{
+    font-size: small;
+}
+
+.contenedor{
+    width: 120rem;
+}
+
+.navegacion-prinsipal{
+    background-color: var(--secundario);
+}
+
+body{
+    background-color: coral;
+}
+
+/* a,img{
+    display: block;
+} */
+
+/*AQUI ESTOY DANDO MODIFICANDO LA ETIQUETA a DE LA UBICAION*/
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover{
+    color: #0097A7;
+}
+
