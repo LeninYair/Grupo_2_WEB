@@ -1,7 +1,11 @@
 :root {
     --blanco: #fff;
+    --primario: #ffff00;
     --secundario: #0097A7;
     --gris: #757575;
+    --oscuro: #212121;
+    --fuentePrincipal: 3.8 rem;
+
 }
 
 .titulo{
@@ -14,20 +18,44 @@
 }
 
 .contenedor{
+    
     width: 120rem;
+    margin: 0 auto 0 auto;
+
 }
 
+
+.nav-bg{
+    background-color: var(--secundario);   
+}
+
+
+
 .navegacion-prinsipal{
-    background-color: var(--secundario);
+    
+    display: flex;
+    flex-direction: column;
 }
 
 body{
     background-color: coral;
 }
 
-/* a,img{
+
+.navegacion-prinsipal a {
     display: block;
-} */
+    margin: 0 auto 0 auto;
+
+}
+
+.navegacion-prinsipal a:hover{
+    background-color: var(--secundario);
+}
+
+
+a,img{
+    display: block;
+}
 
 /*AQUI ESTOY DANDO MODIFICANDO LA ETIQUETA a DE LA UBICAION*/
 
